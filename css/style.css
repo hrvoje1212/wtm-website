@@ -204,6 +204,7 @@ p:not(:last-child) {
 .sec--content .h2 {
     color: #4285F4; /* Dark Blue */
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .sec--content ul {
@@ -425,14 +426,14 @@ p:not(:last-child) {
 /* HOME PAGE STYLES are a set of CSS rules that will be applied to our index.HTML page via CSS selectors (class selectors or element type selectors/HTML elements) already defined in each HTML element that needs styling to match our template. */
 
 .main--home {
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .sec--home {
     width: 100%;
-    height: 100%;
+    height: 600px;
     background-color: #fff; /* White */
-    background-image: url('../img/hamburg-01.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-position: 100% 80%;
     background-size: cover;
@@ -441,7 +442,7 @@ p:not(:last-child) {
 .sec--home .section {
     width: 100%;
     position: relative;
-    top: 50%;
+    top: 300px;
     left: 0;
     -webkit-transform: translateY(-40%); /* Chrome, Safari, Opera */
     -ms-transform: translateY(-40%); /* IE9 */
