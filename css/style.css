@@ -18,6 +18,10 @@ Dark Blue: #4285F4 - rgb(66, 133, 244);
 
 /* BASE STYLES are a set of CSS rules that will be applied into desired global HTML elements via CSS selecrgb(16, 22, 45)tors (element type selectors/HTML elements or class selectors). */
 
+.centered {
+    text-align: center;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -146,6 +150,12 @@ p:not(:last-child) {
 
 .img--circle {
     border-radius: 50%;
+}
+
+.img--partners {
+  max-width: 300px;
+  max-height: 100px;
+  margin: 10px;
 }
 
 .img--headline {
